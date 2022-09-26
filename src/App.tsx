@@ -1,6 +1,13 @@
+import './styles/main.css'
+import { LogoMobile }  from './components/Logo'
+import { Home } from './components/Home'
+
 function App() {
   return (
-    <p>hello</p>
+    <div>
+      <LogoMobile />
+      <Home />
+    </div>
   )
 }
 
